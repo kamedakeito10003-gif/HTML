@@ -1,0 +1,52 @@
+@charset "utf-8";
+
+.inner {
+    width: 93;
+    max-width: 960px;
+    margin: auto;
+    margin: auto;
+}
+
+h1 {
+    font-size: 40px;
+    font-family: "Times New Roman", "YuMincho", "Hiragino Mincho ProN", "Yu Mincho", "MS PMincho", serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: normal;
+    font-family: "Times New Roman", "YuMincho", "Hiragino Mincho ProN", "Yu Mincho", "MS PMincho", serif;
+    text-align: center;
+}
+
+.photo1 p {
+    font-size: 14px;
+    font-family: "Times New Roman", "YuMincho", "Hiragino Mincho ProN", "Yu Mincho", "MS PMincho", serif;
+}
+
+.photo1 ul {
+    font-size: 12px;
+    font-family: "Times New Roman", "YuMincho", "Hiragino Mincho ProN", "Yu Mincho", "MS PMincho", serif;
+}
+
+.photo2 p {
+    font-size: 14px;
+    font-family: "Times New Roman", "YuMincho", "Hiragino Mincho ProN", "Yu Mincho", "MS PMincho", serif;
+}
+
+.photo2 ul {
+    font-size: 12px;
+    font-family: "Times New Roman", "YuMincho", "Hiragino Mincho ProN", "Yu Mincho", "MS PMincho", serif;
+}
+
+footer {
+    background-color: #1E1E1E;
+}
+
+footer dl {
+    color: #fff;
+    font-size: 14px;
+    margin: auto;
+}
