@@ -1,0 +1,74 @@
+@use "sass:math";
+
+@mixin inner($mw: 1000px, $w: percentage(math.div(560, 640))) {
+    max-width: $mw;
+    width: $w;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+@mixin title-main($t) {
+    font-size: 32px;
+    text-align: center;
+
+    &::before {
+        content: $t;
+        display: block;
+        margin-bottom: 20px;
+        font-size: 14px;
+        line-height: 1;
+    }
+
+    &::after {
+        content: "";
+    }
+}
+
+.header {
+    &__inner {
+        @include inner();
+        display: grid;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__title {
+        font-size: 24px;
+        font-weight: bold;
+        align-items: center;
+    }
+
+    &__menu {
+        
+    }
+}
+
+.philosophy {
+
+    &__inner {
+        @include inner();
+    }
+
+    &__title {
+        @include title-main("PHILOSOPHY");
+    }
+}
+
+.productionhistory {
+    &__inner {
+        @include inner();
+    }
+}
+
+.customertestimonials {
+    &__inner {
+        @include inner();
+    }
+}
+
+.footer {
+    &__inner {
+        @include inner();
+    }
+}

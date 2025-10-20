@@ -1,0 +1,56 @@
+.header__inner {
+  max-width: 1000px;
+  width: 87.5%;
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__title {
+  font-size: 24px;
+  font-weight: bold;
+  align-items: center;
+}
+.philosophy__inner {
+  max-width: 1000px;
+  width: 87.5%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.philosophy__title {
+  font-size: 32px;
+  text-align: center;
+}
+.philosophy__title::before {
+  content: "PHILOSOPHY";
+  display: block;
+  margin-bottom: 20px;
+  font-size: 14px;
+  line-height: 1;
+}
+.philosophy__title::after {
+  content: "";
+}
+
+.productionhistory__inner {
+  max-width: 1000px;
+  width: 87.5%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.customertestimonials__inner {
+  max-width: 1000px;
+  width: 87.5%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footer__inner {
+  max-width: 1000px;
+  width: 87.5%;
+  margin-left: auto;
+  margin-right: auto;
+}
+/*# sourceMappingURL=style.css.map */
